@@ -35,7 +35,7 @@
 		08CE1894D052C2FB883CB317 /* Pods-testJatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testJatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-testJatApp/Pods-testJatApp.release.xcconfig"; sourceTree = "<group>"; };
 		0AD409EFBC0B8ADD925CB606 /* Pods-testJatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testJatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testJatApp/Pods-testJatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6152C4647646ED046F7CE3A0 /* Pods_testJatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testJatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E439B2E0212C1AC900032CD8 /* testJatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testJatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E439B2E0212C1AC900032CD8 /* testApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E439B2E3212C1AC900032CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E439B2E5212C1AC900032CD8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E439B2E8212C1AC900032CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		E439B2D7212C1AC900032CD8 = {
 			isa = PBXGroup;
 			children = (
-				E439B2E2212C1AC900032CD8 /* testJatApp */,
+				E439B2E2212C1AC900032CD8 /* testApp */,
 				E439B2E1212C1AC900032CD8 /* Products */,
 				E632E889D39596B40B21B08F /* Pods */,
 				6B11C60338E25BC89F9C3EC3 /* Frameworks */,
@@ -93,12 +93,12 @@
 		E439B2E1212C1AC900032CD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E439B2E0212C1AC900032CD8 /* testJatApp.app */,
+				E439B2E0212C1AC900032CD8 /* testApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E439B2E2212C1AC900032CD8 /* testJatApp */ = {
+		E439B2E2212C1AC900032CD8 /* testApp */ = {
 			isa = PBXGroup;
 			children = (
 				E45B78DE21300FCB0032E555 /* Extensions */,
@@ -116,7 +116,7 @@
 				E439B305212C9C3900032CD8 /* ApiConstants.swift */,
 				E45B78CE213006E00032E555 /* Services */,
 			);
-			path = testJatApp;
+			path = testApp;
 			sourceTree = "<group>";
 		};
 		E45B78CD213006D60032E555 /* Providers */ = {
@@ -195,9 +195,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E439B2DF212C1AC900032CD8 /* testJatApp */ = {
+		E439B2DF212C1AC900032CD8 /* testApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E439B2F2212C1ACA00032CD8 /* Build configuration list for PBXNativeTarget "testJatApp" */;
+			buildConfigurationList = E439B2F2212C1ACA00032CD8 /* Build configuration list for PBXNativeTarget "testApp" */;
 			buildPhases = (
 				4D18C7C6AD671D7161B3A216 /* [CP] Check Pods Manifest.lock */,
 				E439B2DC212C1AC900032CD8 /* Sources */,
@@ -209,9 +209,9 @@
 			);
 			dependencies = (
 			);
-			name = testJatApp;
+			name = testApp;
 			productName = testJatApp;
-			productReference = E439B2E0212C1AC900032CD8 /* testJatApp.app */;
+			productReference = E439B2E0212C1AC900032CD8 /* testApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E439B2DB212C1AC900032CD8 /* Build configuration list for PBXProject "testJatApp" */;
+			buildConfigurationList = E439B2DB212C1AC900032CD8 /* Build configuration list for PBXProject "testApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,7 +242,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E439B2DF212C1AC900032CD8 /* testJatApp */,
+				E439B2DF212C1AC900032CD8 /* testApp */,
 			);
 		};
 /* End PBXProject section */
@@ -469,12 +469,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = testJatApp/Info.plist;
+				INFOPLIST_FILE = testApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Voytovich.testJatApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Voytovich.testApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,12 +487,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = testJatApp/Info.plist;
+				INFOPLIST_FILE = testApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Voytovich.testJatApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikolay-Voytovich.testApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E439B2DB212C1AC900032CD8 /* Build configuration list for PBXProject "testJatApp" */ = {
+		E439B2DB212C1AC900032CD8 /* Build configuration list for PBXProject "testApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E439B2F0212C1ACA00032CD8 /* Debug */,
@@ -511,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E439B2F2212C1ACA00032CD8 /* Build configuration list for PBXNativeTarget "testJatApp" */ = {
+		E439B2F2212C1ACA00032CD8 /* Build configuration list for PBXNativeTarget "testApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E439B2F3212C1ACA00032CD8 /* Debug */,
