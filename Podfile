@@ -4,7 +4,7 @@
 target 'testApp' do
   use_frameworks!
 
-  pod 'Alamofire', '~> 4.7'
+  pod 'Alamofire'
   pod 'KeychainSwift', '~> 11.0'
 
 end

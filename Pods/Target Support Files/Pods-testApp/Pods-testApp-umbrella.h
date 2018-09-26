@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_testJatAppVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_testJatAppVersionString[];
+FOUNDATION_EXPORT double Pods_testAppVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_testAppVersionString[];
 
